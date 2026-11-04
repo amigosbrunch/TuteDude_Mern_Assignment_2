@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: cadetblue;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+/* .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+} */
+
+/* .nav-links a {
+    color: #fff;
+    text-decoration: none;
+} */
