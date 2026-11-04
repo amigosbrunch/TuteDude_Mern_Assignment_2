@@ -39,13 +39,13 @@ body {
     margin-bottom: 0.2rem;
 }
 
-/* .nav-links {
+.nav-links ul {
     display: flex;
     list-style: none;
     gap: 2rem;
-} */
+}
 
-/* .nav-links a {
+.nav-links a {
     color: #fff;
     text-decoration: none;
-} */
+} 
